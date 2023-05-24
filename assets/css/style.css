@@ -4,6 +4,26 @@ body {
     font-family: 'Permanent Marker', sans-serif;
 }
 
+/*This is for the header section*/
+
+header {
+    background: white;
+}
+
+header>h1 {
+    color: black;
+    text-align: center;
+}
+
+/*This is for the game section*/
+#game-section {
+    text-align: center;
+}
+
+#game-section>p {
+    font-size: 300%;
+}
+
 /* testing background layout*/
 
 #player {
