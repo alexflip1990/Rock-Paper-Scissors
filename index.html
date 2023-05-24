@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<!--This is the header-->
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,23 +9,39 @@
     <meta name="keywords" content="Rock paper scissors, online game, game">
 
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Rock, Paper Scissors</title>
+    <title>Rock, Paper and Scissors</title>
 </head>
+
+<!--This is the header-->
+<header>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+</header>
+
 <!--This is the body-->
+
 <body>
     <section id="game-section">
         <div>
-            <h1>Rock, Paper, Scissors</h1>
-            <h3>Choose your weapon!</h3>
-            <button>Rock</button>
-            <button>Paper</button>
-            <button>Scissors</button>
+            <h3>Choose your option!</h3>
+            <button><img src="assets/images/rock.png" alt="rock button image"></button>
+            <button><img src="assets/images/paper.png" alt="paper button image"></button>
+            <button><img src="assets/images/scissors.png" alt="scissors button image"></button>
         </div>
         <div id="player">
 
         </div>
+        <br>
+        <p>VS</p>
+        <br>
         <div id="computer">
 
+        </div>
+        <div id="results">
+            <div id="player-label" class="score">player</div>
+            <div id="comp-label" class="score">computer</div>
+            <span id="player-score">0</span>:<span id="comp-score">0</span>
         </div>
     </section>
     <!--This is the footer-->
