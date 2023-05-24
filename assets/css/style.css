@@ -21,8 +21,34 @@ header>h1 {
 }
 
 #game-section>p {
-    font-size: 300%;
+    font-size: 250%;
 }
+
+/*This is for the results section*/
+#results {
+    margin: 10px auto;
+    border: 3px solid black;
+    width: 250px;
+}
+
+#player-label {
+    float: left;
+    padding-left: 15px;
+}
+
+#comp-label {
+    float: right;
+    padding-right: 15px;
+}
+
+
+
+
+
+
+
+
+
 
 /* testing background layout*/
 
