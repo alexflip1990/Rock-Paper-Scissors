@@ -38,7 +38,7 @@ h3 {
 
 #game-section {
     width: 100%;
-    background: url('../images/backgroundimage.jpg')
+    background: url('../images/backgroundimage.jpg') no-repeat center center;
 }
 
 /*This is for the results section*/
