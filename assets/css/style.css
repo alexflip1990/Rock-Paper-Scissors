@@ -22,7 +22,6 @@ h3 {
     width: 300px;
     margin: 10px auto;
     background-color: #f5f5f5;
-
 }
 
 #game-section {
@@ -31,6 +30,15 @@ h3 {
 
 #game-section>p {
     font-size: 250%;
+    border: 3px solid black;
+    width: 100px;
+    margin: 10px auto;
+    background-color: #f5f5f5;
+}
+
+#game-section {
+    width: 100%;
+    background: url('../images/backgroundimage.jpg')
 }
 
 /*This is for the results section*/
@@ -71,12 +79,16 @@ h3 {
 
 #player {
     margin-top: 10%;
-    height: 100px;
+    height: 280px;
+    width: 280px;
+    margin: 10px auto;
     background-color: blue;
 }
 
 #computer {
     margin-bottom: 10%;
-    height: 100px;
+    height: 280px;
+    width: 280px;
+    margin: 10px auto;
     background-color: green;
 }
