@@ -25,9 +25,11 @@
     <section id="game-section">
         <div>
             <h3>Choose your option!</h3>
-            <button><img src="assets/images/rock.png" alt="rock button image" class="rock"></button>
-            <button><img src="assets/images/paper.png" alt="paper button image" class="paper"></button>
-            <button><img src="assets/images/scissors.png" alt="scissors button image" class="scissors"></button>
+            <button><img src="assets/images/rock.png" alt="rock button image" aria-label="rock" class="rock"></button>
+            <button><img src="assets/images/paper.png" alt="paper button image" aria-label="paper"
+                    class="paper"></button>
+            <button><img src="assets/images/scissors.png" alt="scissors button image" aria-label="scissors"
+                    class="scissors"></button>
         </div>
         <div id="player">
 
@@ -42,6 +44,9 @@
             <div id="player-label" class="score">player</div>
             <div id="comp-label" class="score">computer</div>
             <span id="player-score">0</span>:<span id="comp-score">0</span>
+        </div>
+        <div>
+            <button aria-label="restart" class="restart">Restart Game?</button>
         </div>
     </section>
     <!--This is the footer-->
