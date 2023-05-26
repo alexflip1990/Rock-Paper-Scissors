@@ -17,6 +17,22 @@ header>h1 {
 
 /*This is for the game section*/
 
+#player {
+    margin-top: 10%;
+    height: 280px;
+    width: 280px;
+    margin: 10px auto;
+    background-color: lightblue;
+}
+
+#computer {
+    margin-bottom: 10%;
+    height: 280px;
+    width: 280px;
+    margin: 10px auto;
+    background-color: purple;
+}
+
 h3 {
     border: 3px solid black;
     width: 300px;
@@ -64,31 +80,4 @@ h3 {
     list-style-type: none;
     font-size: 140%;
     padding: 5%;
-}
-
-
-
-
-
-
-
-
-
-
-/* testing background layout*/
-
-#player {
-    margin-top: 10%;
-    height: 280px;
-    width: 280px;
-    margin: 10px auto;
-    background-color: blue;
-}
-
-#computer {
-    margin-bottom: 10%;
-    height: 280px;
-    width: 280px;
-    margin: 10px auto;
-    background-color: green;
 }
