@@ -7,7 +7,10 @@ const computer = document.getElementById('computer');
 const playerScoreSpan = document.getElementById('player-score');
 const computerScoreSpan = document.getElementById('comp-score');
 const results = document.querySelector('#results');
-const rock = document.getElementsByClassName('rock');
-const paper = document.getElementsByClassName('paper');
-const scissors = document.getElementsByClassName('scissors');
-const restart = document.getElementsByClassName('restart');
+const rockDiv = document.getElementById('rock');
+const paperDiv = document.getElementById('paper');
+const scissorsDiv = document.getElementById('scissors');
+const restartDiv = document.getElementById('restart');
+
+
+
