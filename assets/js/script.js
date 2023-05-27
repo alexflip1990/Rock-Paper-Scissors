@@ -12,5 +12,15 @@ const paperDiv = document.getElementById('paper');
 const scissorsDiv = document.getElementById('scissors');
 const restartDiv = document.getElementById('restart');
 
+/**
+ * Add event listeners to all of the buttons
+ * this will listen for any of the buttons
+ * that are clicked
+ */
+rockDiv.addEventListener('click', function () { });
 
+paperDiv.addEventListener('click', function () { });
 
+scissorsDiv.addEventListener('click', function () { });
+
+restartDiv.addEventListener('click', function () { });
