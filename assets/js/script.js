@@ -22,15 +22,15 @@ let computerChoice = '';
  */
 function setUp() {
     rockDiv.addEventListener('click', function () {
-        playerChoice('rock');
+        playerOption('rock');
     });
 
     paperDiv.addEventListener('click', function () {
-        playerChoice('paper');
+        playerOption('paper');
     });
 
     scissorsDiv.addEventListener('click', function () {
-        playerChoice('scissors');
+        playerOption('scissors');
     });
 
     restartDiv.addEventListener('click', function () {
@@ -45,22 +45,46 @@ setUp();
  * This function calls the players choice for
  * rock,paper,scissors 
  */
-function playerChoice(option) {
-    console.log(option);
+function playerOption(option) {
     player.innerHTML = '<img src="assets/images/' + option + '.png" />';
-    computerChoice();
     playerChoice = option;
+    computerOption();
+
 }
 
 /**
  * This function generates the computers
  * random choice
  */
-function computerChoice() {
+function computerOption() {
     let choice = Math.floor(Math.random() * 3);
-    console.log(choice);
     computer.innerHTML = '<img src="assets/images/' + choices[choice] +
         '.png" />';
     computerChoice = choices[choice];
+    decidesWinner();
+}
+
+/**
+ * This function decides who
+ * wins and loses
+ */
+function decidesWinner() {
+    console.log(playerChoice + ' : ' + computerChoice);
+    if (playerChoice === computerChoice) {
+        alert("It's a draw!!!!");
+    } else if (playerChoice === 'rock' && computerChoice === 'scissors') {
+        alert("Rock beats Scissors, you WIN!");
+    } else if (playerChoice === 'rock' && computerChoice === 'paper') {
+        alert("Paper beats Rock, sorry you LOSE!");
+    } else if (playerChoice === 'paper' && computerChoice === 'rock') {
+        alert("Paper beats Rock, you WIN!");
+    } else if (playerChoice === 'paper' && computerChoice === 'scissors') {
+        alert("Scissors beats Paper, sorry you LOSE!");
+    } else if (playerChoice === 'scissors' && computerChoice === 'paper') {
+        alert("Scissors beats Paper, you WIN!");
+    } else if (playerChoice === 'scissors' && computerChoice === 'rock') {
+        alert("Rock beats Scissors, sorry you LOSE!");
+    }
+
 }
 
