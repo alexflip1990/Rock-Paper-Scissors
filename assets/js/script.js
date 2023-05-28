@@ -36,7 +36,7 @@ function setUp() {
     });
 
     restartDiv.addEventListener('click', function () {
-
+        reset();
     });
 
 }
@@ -111,5 +111,16 @@ function playerWins() {
  */
 function playerLoses() {
     computerScore++;
+    computerScoreSpan.innerHTML = computerScore;
+}
+
+/**
+ * This function resets the scores back to
+ * zero when reset button is clicked
+ */
+function reset() {
+    playerScore = 0;
+    playerScoreSpan.innerHTML = playerScore;
+    computerScore = 0;
     computerScoreSpan.innerHTML = computerScore;
 }
