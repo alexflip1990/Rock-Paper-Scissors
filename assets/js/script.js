@@ -12,6 +12,8 @@ const paperDiv = document.getElementById('paper');
 const scissorsDiv = document.getElementById('scissors');
 const restartDiv = document.getElementById('restart');
 const choices = ['rock', 'paper', 'scissors'];
+let playerChoice = '';
+let computerChoice = '';
 
 /**
  * Add event listeners to all of the buttons
@@ -47,6 +49,7 @@ function playerChoice(option) {
     console.log(option);
     player.innerHTML = '<img src="assets/images/' + option + '.png" />';
     computerChoice();
+    playerChoice = option;
 }
 
 /**
@@ -58,5 +61,6 @@ function computerChoice() {
     console.log(choice);
     computer.innerHTML = '<img src="assets/images/' + choices[choice] +
         '.png" />';
-
+    computerChoice = choices[choice];
 }
+
