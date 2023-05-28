@@ -14,6 +14,8 @@ const restartDiv = document.getElementById('restart');
 const choices = ['rock', 'paper', 'scissors'];
 let playerChoice = '';
 let computerChoice = '';
+let playerScore = 0;
+let computerScore = 0;
 
 /**
  * Add event listeners to all of the buttons
@@ -74,17 +76,40 @@ function decidesWinner() {
         alert("It's a draw!!!!");
     } else if (playerChoice === 'rock' && computerChoice === 'scissors') {
         alert("Rock beats Scissors, you WIN!");
+        playerWins();
     } else if (playerChoice === 'rock' && computerChoice === 'paper') {
         alert("Paper beats Rock, sorry you LOSE!");
+        playerLoses();
     } else if (playerChoice === 'paper' && computerChoice === 'rock') {
         alert("Paper beats Rock, you WIN!");
+        playerWins();
     } else if (playerChoice === 'paper' && computerChoice === 'scissors') {
         alert("Scissors beats Paper, sorry you LOSE!");
+        playerLoses();
     } else if (playerChoice === 'scissors' && computerChoice === 'paper') {
         alert("Scissors beats Paper, you WIN!");
+        playerWins();
     } else if (playerChoice === 'scissors' && computerChoice === 'rock') {
         alert("Rock beats Scissors, sorry you LOSE!");
+        playerLoses();
     }
 
 }
 
+/**
+ * This function increase the players score
+ * by one 
+ */
+function playerWins() {
+    playerScore++;
+    playerScoreSpan.innerHTML = playerScore;
+
+}
+/**
+ *This function increase the computers score
+ by one
+ */
+function playerLoses() {
+    computerScore++;
+    computerScoreSpan.innerHTML = computerScore;
+}
