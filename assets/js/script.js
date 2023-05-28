@@ -17,15 +17,33 @@ const restartDiv = document.getElementById('restart');
  * this will listen for any of the buttons
  * that are clicked
  */
-function buttonClick() {
-    rockDiv.addEventListener('click', function () { });
+function setUp() {
+    rockDiv.addEventListener('click', function () {
+        playerChoice('rock');
+    });
 
-    paperDiv.addEventListener('click', function () { });
+    paperDiv.addEventListener('click', function () {
+        playerChoice('paper');
+    });
 
-    scissorsDiv.addEventListener('click', function () { });
+    scissorsDiv.addEventListener('click', function () {
+        playerChoice('scissors');
+    });
 
-    restartDiv.addEventListener('click', function () { });
+    restartDiv.addEventListener('click', function () {
+
+    });
 
 }
 
-buttonClick();
+setUp();
+
+/**
+ * This function calls the players choice for
+ * rock,paper,scissors 
+ */
+function playerChoice(option) {
+    console.log(option);
+    player.innerHTML = '<img src="assets/images/' + option + '.png" />';
+
+}
