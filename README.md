@@ -1,39 +1,101 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Rock, Paper, Scissors
 
-Welcome,
+Rock, Paper, Scissors is a classic game that gives the player three different options to choose from Rock, Paper or Scissors, once and option has been chosen the computer player will then chose and option and the winner will be determined by the rules of the game.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Playing  Rock, Paper, Scissors in person with a friend or family member may result in a lot of draws, this can be because you may be familiar with each other or may even have a sense at what your friend or family member may choose. Playing this online Rock, Paper, Scissors game will be impossible to guess what the computer player will choose as it is done completely random giving the game a fair outcome each time you play.
+This game is targeted towards adults and children and this game can be used to learn the rules of Rock, Paper, Scissors and used for fun purposes.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+RESPONSIVE IMAGE GOES HERE
 
-## Codeanywhere Reminders
+### FEATURES  
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- The Header
+  - The header shows the heading  Rock, Paper, Scissors and is centered in the middle of the page in a funky font colored black to contrast against the white background.
+  - The header explains exactly what game this website is.
 
-`python3 -m http.server`
+HEADER IMAGE GOES HERE
+  
+- The Options
+  
+  - The options section includes a small header advising the player to choose their option, below the header are three images, a rock, paper and a scissors. These are interactive buttons that the player uses to select their choice.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+IMAGE OF BUTTONS GOES HERE
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- The results
+  - Once the player chooses and option, the image relating to their choice will show in the light-blue box in the game section.
+  - The JavaScript code makes a random choice for the computer player and this image will show in the purple box in the game section and the winner is then decided.
+  - The winner is announced by an alert display that pops up who won the round and explains why, the score board will then increase the players score or the computers score accordingly.
+  - The score board is clear to the user so they are able to keep track of their score making it easy to see who is winning thus making the game easy to follow for the player.
+  - I have chosen an 80's arcade background image for the game section, I feel this image suits the game well as it gives it a fun aesthetic.
+  
+RESULTS GAME SECTION IMAGE GOES HERE
 
-`http_server`
+- Restart Game Button
+  - This button allows the player to reset the score board whenever they like and however many times they like.
+  - This is ideal should a new player want try and start the scores from 0 again.
+  
+RESET BUTTON IMAGE GOES HERE
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+- Footer
+  - The footer provides the user with our social media links so the user can follow us online and play and new games that are created in the future.
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+SOCIAL MEDIA IMAGES GO HERE
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Testing
 
-To log into the Heroku toolbelt CLI:
+- I have tested that this game works on different browsers: Microsoft Edge, Google Chrome and Firefox and confirm it works on all three.
+- I can confirm that this project is responsive and looks good and all functions work on all screen size's using the developers tool bar.
+- I can confirm that the game always works correctly and that the scores will always be updated correctly.
+- I can confirm that the headers, options, results, instructions and social media links are all readable and easy to understand.
+- I can confirm that the colors and fonts used are easy to read and accessible by checking it in the lighthouse in dev tools.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+LIGHTHOUSE IMAGE GOES HERE
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+### Bugs
 
----
+Solved bugs
 
-Happy coding!
+- While creating my project and testing it through the validator I had discovered one error in the html code, image of error shown below.
+
+BODY TAG ERROR IMAGE GOES HERE
+
+- Removing the body tag fixed the problem.
+
+### Validator Testing
+
+- HTML
+  - No errors where found when passing through the official W3C validator once the error mentioned above was resolved.
+- CSS
+  - No errors where found when passing through the official (Jigsaw) validator
+- Javascript
+  - No errors where found when passing through the JSHint validator however there are some warnings.
+
+### Unfixed bugs
+
+There are no unfixed bugs.
+
+### Deployment
+
+- The site was deployed to Github pages, these are the steps that were taken:
+  - In the Github repository I navigated to the Settings tab.
+  - I then selected the pages navigation link towards the left of the screen half way down.
+  - Located the source section drop-down-menu, selected Main branch and clicked save.
+  - Once the Main branch was saved the page provided a link the to completed website.
+
+The live link can be found here LIVE LINK GOES HERE
+
+### Credits
+
+#### Content
+
+- Score board frame taken from YOUTUBE link here
+
+- Icons in the footer were taken from FONTAWESOME
+
+- You tube video code taken from YOUTUBE.
+
+#### Media
+
+- Background image taken from <a href="https://www.freepik.com/free-vector/80-s-geometric-colorful-decorative-background_5061980.htm#query=80s%20background&position=3&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik
+- Rock, Paper, Scissors images where taken from bookmarked freeicon
+- Images compressed using TINYPNG
