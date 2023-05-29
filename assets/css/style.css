@@ -19,16 +19,16 @@ header>h1 {
 
 #player {
     margin-top: 10%;
-    height: 280px;
-    width: 280px;
+    height: 100px;
+    width: 100px;
     margin: 10px auto;
     background-color: lightblue;
 }
 
 #computer {
     margin-bottom: 10%;
-    height: 280px;
-    width: 280px;
+    height: 100px;
+    width: 100px;
     margin: 10px auto;
     background-color: purple;
 }
