@@ -17,6 +17,21 @@ header>h1 {
 
 /*This is for the game section*/
 
+#rock {
+    width: 80px;
+    height: 80px;
+}
+
+#paper {
+    width: 80px;
+    height: 80px;
+}
+
+#scissors {
+    width: 80px;
+    height: 80px;
+}
+
 #player {
     margin-top: 10%;
     height: 100px;
