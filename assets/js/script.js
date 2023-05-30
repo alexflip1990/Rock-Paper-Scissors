@@ -44,7 +44,8 @@ setUp();
 
 /**
  * This function calls the players choice for
- * rock,paper,scissors 
+ * rock,paper,scissors, the code on line 51 I received help from
+ * a family friend Dylan 
  */
 function playerOption(option) {
     player.innerHTML = '<img src="assets/images/' + option + '.png" />';
@@ -55,7 +56,8 @@ function playerOption(option) {
 
 /**
  * This function generates the computers
- * random choice
+ * random choice for rock, paper, scissors, the code on line
+ * 64 I received help from a family friend Dylan
  */
 function computerOption() {
     let choice = Math.floor(Math.random() * 3);
