@@ -65,10 +65,13 @@ Solved bugs
 
 - HTML
   - No errors where found when passing through the official W3C validator once the error mentioned above was resolved.
+  - [Screen shot of HTML code validator](/assets/images/htmlvalidator.png)
 - CSS
   - No errors where found when passing through the official (Jigsaw) validator
+  - [Screen shot of CSS code validator](/assets/images/cssvalidator.png)
 - Javascript
   - No errors where found when passing through the JSHint validator however there are some warnings.
+  - [Screen shot of JavaScript code validator](/assets/images/javascriptvalidator.png)
 
 ### Unfixed bugs
 
@@ -85,17 +88,18 @@ There are no unfixed bugs.
 The live link can be found here [Rock, Paper, Scissors](https://alexflip1990.github.io/Rock-Paper-Scissors)
 
 ### Credits
+- Code on lines 51 and 64 in the script.js file I received help from Dylan James who
+- is a family friend, the code is to get which ever image button the player or computer
+- chooses to show in the player section and the computer section in the game area.
 
 #### Content
 
-- Score board frame taken from YOUTUBE link here
+- Icons in the footer were taken from [FONTAWESOME](https://fontawesome.com/v5/search)
 
-- Icons in the footer were taken from FONTAWESOME
-
-- You tube video code taken from YOUTUBE.
+- Font on game page was taken from [Google Fonts](https://fonts.google.com/)
 
 #### Media
 
 - Background image taken from <a href="https://www.freepik.com/free-vector/80-s-geometric-colorful-decorative-background_5061980.htm#query=80s%20background&position=3&from_view=keyword&track=ais">Image by pikisuperstar</a> on Freepik
-- Rock, Paper, Scissors images where taken from bookmarked freeicon
-- Images compressed using TINYPNG
+- Rock, Paper, Scissors images where taken from [Free Icon Library] (https://icon-library.com/icon/rock-paper-scissors-icon-6.html)
+- Images compressed using [TINYPNG](https://tinypng.com/)
